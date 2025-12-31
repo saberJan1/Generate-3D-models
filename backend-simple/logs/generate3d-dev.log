@@ -4705,3 +4705,201 @@ Caused by: java.net.ConnectException: Connection refused: getsockopt
 2025-09-28 16:40:13.613 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
 2025-09-28 16:40:13.766 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api'
 2025-09-28 16:40:13.788 [main] INFO  com.generate3d.Generate3DApplication - Started Generate3DApplication in 7.723 seconds (process running for 9.881)
+2025-12-30 16:16:28.063 [main] INFO  com.generate3d.Generate3DApplication - Starting Generate3DApplication using Java 17.0.17 with PID 40932 (C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes started by admin in C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple)
+2025-12-30 16:16:28.075 [main] DEBUG com.generate3d.Generate3DApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2025-12-30 16:16:28.077 [main] INFO  com.generate3d.Generate3DApplication - The following 1 profile is active: "dev"
+2025-12-30 16:16:28.955 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'corsConfigurationSource' defined in class path resource [com/generate3d/security/SecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/security/SecurityConfig.class]] for bean 'corsConfigurationSource' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=corsConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/config/CorsConfig.class]] bound.
+2025-12-30 16:16:28.974 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-30 16:16:28.990 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'corsConfigurationSource', defined in class path resource [com/generate3d/security/SecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/generate3d/config/CorsConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-12-30 16:17:20.035 [main] INFO  com.generate3d.Generate3DApplication - Starting Generate3DApplication using Java 17.0.17 with PID 15648 (C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes started by admin in C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple)
+2025-12-30 16:17:20.037 [main] DEBUG com.generate3d.Generate3DApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2025-12-30 16:17:20.038 [main] INFO  com.generate3d.Generate3DApplication - The following 1 profile is active: "dev"
+2025-12-30 16:17:20.948 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'corsConfigurationSource' defined in class path resource [com/generate3d/security/SecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/security/SecurityConfig.class]] for bean 'corsConfigurationSource' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=corsConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/config/CorsConfig.class]] bound.
+2025-12-30 16:17:20.968 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-30 16:17:20.992 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'corsConfigurationSource', defined in class path resource [com/generate3d/security/SecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/generate3d/config/CorsConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-12-30 16:18:47.950 [main] INFO  com.generate3d.Generate3DApplication - Starting Generate3DApplication using Java 17.0.17 with PID 27468 (C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes started by admin in C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple)
+2025-12-30 16:18:47.951 [main] DEBUG com.generate3d.Generate3DApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2025-12-30 16:18:47.953 [main] INFO  com.generate3d.Generate3DApplication - The following 1 profile is active: "dev"
+2025-12-30 16:18:48.775 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'corsConfigurationSource' defined in class path resource [com/generate3d/security/SecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/security/SecurityConfig.class]] for bean 'corsConfigurationSource' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=corsConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/config/CorsConfig.class]] bound.
+2025-12-30 16:18:48.790 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-30 16:18:48.808 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'corsConfigurationSource', defined in class path resource [com/generate3d/security/SecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/generate3d/config/CorsConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-12-30 16:19:41.401 [main] INFO  com.generate3d.Generate3DApplication - Starting Generate3DApplication using Java 17.0.17 with PID 19884 (C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes started by admin in C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple)
+2025-12-30 16:19:41.403 [main] DEBUG com.generate3d.Generate3DApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2025-12-30 16:19:41.405 [main] INFO  com.generate3d.Generate3DApplication - The following 1 profile is active: "dev"
+2025-12-30 16:19:42.075 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'corsConfigurationSource' defined in class path resource [com/generate3d/security/SecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/security/SecurityConfig.class]] for bean 'corsConfigurationSource' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=corsConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/config/CorsConfig.class]] bound.
+2025-12-30 16:19:42.090 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-30 16:19:42.105 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'corsConfigurationSource', defined in class path resource [com/generate3d/security/SecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/generate3d/config/CorsConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-12-30 16:21:49.451 [com.generate3d.Generate3DApplication.main()] INFO  com.generate3d.Generate3DApplication - Starting Generate3DApplication using Java 17.0.17 with PID 24708 (C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes started by admin in C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple)
+2025-12-30 16:21:49.454 [com.generate3d.Generate3DApplication.main()] DEBUG com.generate3d.Generate3DApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2025-12-30 16:21:49.455 [com.generate3d.Generate3DApplication.main()] INFO  com.generate3d.Generate3DApplication - The following 1 profile is active: "dev"
+2025-12-30 16:21:50.327 [com.generate3d.Generate3DApplication.main()] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'corsConfigurationSource' defined in class path resource [com/generate3d/security/SecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/security/SecurityConfig.class]] for bean 'corsConfigurationSource' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=corsConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/config/CorsConfig.class]] bound.
+2025-12-30 16:21:50.337 [com.generate3d.Generate3DApplication.main()] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-30 16:21:50.355 [com.generate3d.Generate3DApplication.main()] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'corsConfigurationSource', defined in class path resource [com/generate3d/security/SecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/generate3d/config/CorsConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-12-30 16:33:53.239 [main] INFO  com.generate3d.Generate3DApplication - Starting Generate3DApplication using Java 17.0.17 with PID 25784 (C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes started by admin in C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple)
+2025-12-30 16:33:53.242 [main] DEBUG com.generate3d.Generate3DApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2025-12-30 16:33:53.243 [main] INFO  com.generate3d.Generate3DApplication - The following 1 profile is active: "dev"
+2025-12-30 16:33:54.141 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'corsConfigurationSource' defined in class path resource [com/generate3d/security/SecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/security/SecurityConfig.class]] for bean 'corsConfigurationSource' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=corsConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/config/CorsConfig.class]] bound.
+2025-12-30 16:33:54.154 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-30 16:33:54.168 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'corsConfigurationSource', defined in class path resource [com/generate3d/security/SecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/generate3d/config/CorsConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-12-30 16:34:19.008 [main] INFO  com.generate3d.Generate3DApplication - Starting Generate3DApplication using Java 17.0.17 with PID 26132 (C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes started by admin in C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple)
+2025-12-30 16:34:19.011 [main] DEBUG com.generate3d.Generate3DApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2025-12-30 16:34:19.013 [main] INFO  com.generate3d.Generate3DApplication - The following 1 profile is active: "dev"
+2025-12-30 16:34:19.862 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'corsConfigurationSource' defined in class path resource [com/generate3d/security/SecurityConfig.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/security/SecurityConfig.class]] for bean 'corsConfigurationSource' since there is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=corsConfig; factoryMethodName=corsConfigurationSource; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/generate3d/config/CorsConfig.class]] bound.
+2025-12-30 16:34:19.876 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-30 16:34:19.900 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'corsConfigurationSource', defined in class path resource [com/generate3d/security/SecurityConfig.class], could not be registered. A bean with that name has already been defined in class path resource [com/generate3d/config/CorsConfig.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-12-30 16:35:19.204 [main] INFO  com.generate3d.Generate3DApplication - Starting Generate3DApplication using Java 17.0.17 with PID 40804 (C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes started by admin in C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple)
+2025-12-30 16:35:19.208 [main] DEBUG com.generate3d.Generate3DApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2025-12-30 16:35:19.208 [main] INFO  com.generate3d.Generate3DApplication - The following 1 profile is active: "dev"
+2025-12-30 16:35:20.720 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-30 16:35:20.723 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-30 16:35:20.758 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2025-12-30 16:35:20.885 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\EvaluationHistoryMapper.class]
+2025-12-30 16:35:20.885 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\EvaluationMetricsConfigMapper.class]
+2025-12-30 16:35:20.886 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\EvaluationTaskMapper.class]
+2025-12-30 16:35:20.886 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\ExportTaskMapper.class]
+2025-12-30 16:35:20.886 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\GenerationTaskMapper.class]
+2025-12-30 16:35:20.886 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\LoginLogMapper.class]
+2025-12-30 16:35:20.886 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\ModelEvaluationMapper.class]
+2025-12-30 16:35:20.887 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\ModelMapper.class]
+2025-12-30 16:35:20.887 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\ModelUserRatingMapper.class]
+2025-12-30 16:35:20.887 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\SystemConfigMapper.class]
+2025-12-30 16:35:20.888 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\UserMapper.class]
+2025-12-30 16:35:20.888 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\admin\Desktop\zhijingzhutan\Generate-3D-models\backend-simple\target\classes\com\generate3d\mapper\UserRoleMapper.class]
+2025-12-30 16:35:20.889 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'evaluationHistoryMapper' and 'com.generate3d.mapper.EvaluationHistoryMapper' mapperInterface
+2025-12-30 16:35:20.897 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'evaluationMetricsConfigMapper' and 'com.generate3d.mapper.EvaluationMetricsConfigMapper' mapperInterface
+2025-12-30 16:35:20.899 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'evaluationTaskMapper' and 'com.generate3d.mapper.EvaluationTaskMapper' mapperInterface
+2025-12-30 16:35:20.900 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'exportTaskMapper' and 'com.generate3d.mapper.ExportTaskMapper' mapperInterface
+2025-12-30 16:35:20.902 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'generationTaskMapper' and 'com.generate3d.mapper.GenerationTaskMapper' mapperInterface
+2025-12-30 16:35:20.903 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'loginLogMapper' and 'com.generate3d.mapper.LoginLogMapper' mapperInterface
+2025-12-30 16:35:20.906 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'modelEvaluationMapper' and 'com.generate3d.mapper.ModelEvaluationMapper' mapperInterface
+2025-12-30 16:35:20.907 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'modelMapper' and 'com.generate3d.mapper.ModelMapper' mapperInterface
+2025-12-30 16:35:20.910 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'modelUserRatingMapper' and 'com.generate3d.mapper.ModelUserRatingMapper' mapperInterface
+2025-12-30 16:35:20.912 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'systemConfigMapper' and 'com.generate3d.mapper.SystemConfigMapper' mapperInterface
+2025-12-30 16:35:20.915 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.generate3d.mapper.UserMapper' mapperInterface
+2025-12-30 16:35:20.917 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userRoleMapper' and 'com.generate3d.mapper.UserRoleMapper' mapperInterface
+2025-12-30 16:35:21.917 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2025-12-30 16:35:21.933 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-30 16:35:21.934 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2025-12-30 16:35:22.154 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-12-30 16:35:22.154 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2872 ms
+2025-12-30 16:35:22.278 [main] INFO  com.generate3d.config.CorsConfig - 初始化CORS过滤器
+2025-12-30 16:35:22.283 [main] INFO  com.generate3d.config.CorsConfig - 初始化CORS配置源
+2025-12-30 16:35:22.308 [main] INFO  com.generate3d.config.CorsConfig - CORS配置完成 - 允许的源: [http://localhost:*, http://127.0.0.1:*, https://localhost:*, https://127.0.0.1:*, http://*.generate3d.com, https://*.generate3d.com, *], 允许的方法: [GET, POST, PUT, DELETE, OPTIONS, HEAD, PATCH]
+2025-12-30 16:35:22.397 [main] INFO  com.generate3d.filter.CorsPreflightFilter - 初始化CORS预检请求过滤器
+2025-12-30 16:35:22.737 [main] INFO  com.generate3d.config.RedisConfig - RedisTemplate配置完成
+2025-12-30 16:35:23.003 [main] INFO  com.generate3d.config.HunyuanConfig - 混元AI客户端初始化成功 - region: ap-beijing, endpoint: hunyuan.tencentcloudapi.com
+2025-12-30 16:35:23.903 [main] INFO  com.generate3d.config.OssConfig - 初始化OSS客户端 - endpoint: oss-cn-hangzhou.aliyuncs.com, bucket: generate-3d
+2025-12-30 16:35:24.384 [main] INFO  com.generate3d.config.AsyncConfig - 模型生成线程池初始化完成: 核心线程数=2, 最大线程数=5, 队列容量=100
+2025-12-30 16:35:24.389 [main] INFO  com.generate3d.config.AsyncConfig - 模型导出线程池初始化完成: 核心线程数=1, 最大线程数=3, 队列容量=50
+2025-12-30 16:35:24.391 [main] INFO  com.generate3d.config.AsyncConfig - 文件处理线程池初始化完成: 核心线程数=2, 最大线程数=4, 队列容量=200
+2025-12-30 16:35:24.393 [main] INFO  com.generate3d.config.AsyncConfig - 默认异步线程池初始化完成: 核心线程数=4, 最大线程数=8, 队列容量=500
+2025-12-30 16:35:24.423 [main] INFO  com.generate3d.config.RedisConfig - Redis缓存管理器配置完成
+2025-12-30 16:35:24.452 [main] INFO  com.generate3d.config.SwaggerConfig - Swagger API文档配置完成，当前环境: dev
+2025-12-30 16:35:25.654 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-12-30 16:35:25.854 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/api'
+2025-12-30 16:35:25.885 [main] INFO  com.generate3d.Generate3DApplication - Started Generate3DApplication in 7.23 seconds (process running for 7.675)
